@@ -7,7 +7,7 @@ Este proyecto se usa la version 14.2.6 de Angular
 Para esta demostración se usa un multi project de Angular, primero debes crear un espacio de trabajo, en este caso se llama **"demo-microfront-angular14"**
 
 ```console
-ng new demo-microfront-angular14 --createApplication=false
+ng new demo-microfront-angular14 --create-application=false
 ```
 
 Luego crearemos los siguientes proyectos:
