@@ -86,3 +86,39 @@ module.exports = withModuleFederationPlugin({
   sharedMappings: ["@commons-lib"],
 });
 ```
+
+# Ejecutar los proyectos en paralelo
+
+Para realizar esto usaremos la librería **npm-run-all**
+
+```console
+npm i -D npm-run-all
+```
+
+Una vez instalada agregamos lo siguientes **scripts** en nuestro archivo _package.json_:
+
+```json
+    "mf-shell": "ng s mf-shell",
+    "mf-shopping": "ng s mf-shopping",
+    "mf-payment": "ng s mf-payment",
+    "all": "npm-run-all --parallel mf-shell mf-shopping mf-payment"
+```
+
+Ahora solo queda ejecutar el comando **npm run all**
+
+**Suscríbete a mi canal** 😎
+
+https://www.youtube.com/c/LogiDev
+
+**Sígueme en mis redes:**
+
+👉Facebook : https://facebook.com/LogiDev25
+búscame como: @LogiDev25
+
+👉Instagram: https://instagram.com/jimyhdolores/
+búscame como: @jimyhdolores
+
+👉Twitter: https://twitter.com/jimyHDolores
+búscame como: @jimyHDolores
+
+👉LinkedIn:https://linkedin.com/in/jimyhuachodolores/
